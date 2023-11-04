@@ -56,6 +56,7 @@ int main() {
         }
         n_client ++;
         std::cout << "A new client joined, its IP is " << inet_ntoa(client_addr.sin_addr) << std::endl;
+
     }
     return 0;
 }
